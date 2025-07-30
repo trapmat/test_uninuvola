@@ -4,7 +4,6 @@ FROM quay.io/uninuvola/base:main
 USER root
 
 ## -- ADD YOUR CODE HERE !! -- ##
-FROM ubuntu:22.04
 #Installa toolchain C++17, Python e Supervisor
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y \
